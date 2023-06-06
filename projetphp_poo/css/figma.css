@@ -1,0 +1,226 @@
+/*page index.php*/
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+#one{
+    background-color:  rgb(190, 186, 186);
+    
+}
+
+#erreur {
+    position: absolute;
+    width: 296px;
+    height: 48px;
+    left: 570px;
+    top: 360px;
+    
+    color: red;
+}
+
+#tete{
+text-align: center;
+text-transform: uppercase;
+text-shadow: 2px 2px 5px rgb(0, 0, 0);
+font-size: 50px;
+  }
+
+.header{
+    text-align: center;
+    padding: 18px;
+    background: linear-gradient(white, rgb(253, 253, 253) , rgb(190, 186, 186));
+}
+
+
+span.a{
+color: rgb(22, 235, 22);
+}
+span.b{
+    color:yellow;
+    }
+    span.c{
+        color:red;
+        }
+
+#connecter {
+    position: absolute;
+    width: 165px;
+    height: 63px;
+    left: 598px;
+    top: 550px;
+    
+    font-family: 'Baloo Tammudu';
+    font-style: normal;
+    font-weight: 400;
+   
+    line-height: 78px;
+    text-decoration-line: underline;  
+    display: flex;
+ 
+}
+
+h3{
+    position: absolute;
+width: 94px;
+height: 18px;
+left: 620px;
+top: 174px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 18px;
+color: #FFFFFF;
+
+}
+
+a{
+    color: black;
+}
+
+/*page connexion.php*/
+#scnd{
+    background-image: url("../src/imm.jpg");
+    background-size: cover;
+    
+}
+
+
+
+.id{
+position: absolute;
+width: 296px;
+height: 48px;
+left: 534px;
+top: 211px;
+
+background:white;
+border-radius: 25px;
+}
+.numb{
+    position: absolute;
+    width: 296px;
+    height: 48px;
+    left: 534px;
+    top: 311px;
+    
+    background:white;
+    border-radius: 25px;
+    }
+::placeholder {
+    text-align: center;
+  }
+.con{
+position: absolute;
+width: 158px;
+height: 39px;
+left: 603px;
+top: 400px;
+
+background: rgb(2, 209, 2);
+border-radius: 25px;
+transition: transform .4s;
+}
+
+.con:hover{
+    transform: scale(1.2);
+}
+#connexion{
+    color: rgb(255, 254, 254);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    position: absolute;
+    width: 94px;
+    height: 18px;
+    left: 595px;
+    top: 150px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 18px;
+
+    
+}
+/*page option.php*/
+
+#add{
+background: #089205;
+border-radius: 20px;
+}
+
+#mod{
+background:rgb(255, 196, 3);
+border-radius: 20px;
+}
+
+#rem{
+background: #d60808;
+border-radius: 20px;
+}
+
+.image{   
+text-align: center;
+margin: auto;
+display: flex;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+
+#img1{
+width: 100px;
+}
+    
+#img2{
+    width: 110px;
+}
+    
+#img3{
+    width: 100px;   
+}
+
+.action {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15em;
+}
+.action button {
+    height: 75px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 5px 0 5px;
+}
+.action button div.link{
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    display: flex;
+}
+
+.action button div.link a {
+    font-size: 25px;
+}
+
+div.icon {
+    left: -90px;
+    top: -8px;
+    position: absolute;
+}
+
+.action button div.icon img {
+    height: 80px;
+}
+
+.or:hover{
+    transform: scale(1.2); 
+}
